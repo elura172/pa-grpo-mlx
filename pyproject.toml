@@ -1,0 +1,15 @@
+[project]
+name = "pa-grpo-mlx"
+version = "0.1.0"
+description = "Precision-Asymmetric & Self-Speculative Rollout GRPO (PA-GRPO) on Apple Silicon MLX"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "elura172", email = "228485553+elura172@users.noreply.github.com" }
+]
+dependencies = [
+    "matplotlib>=3.9.0",
+    "mlx>=0.22.0",
+    "numpy>=2.0.0",
+]

@@ -125,6 +125,7 @@ Running `pa_grpo_experiment.py` completes the shared SFT warmup and all 5 GRPO r
 ```text
 pa-grpo-mlx/
 ├── README.md                           # Architecture, theory, empirical findings, and reproduction guide
+├── INTERVIEW_DEFENSE.md                # Deep-dive Systems × RL Q&A (Roofline, YOCO retrofitting, A-TIS theory, disaggregated scaling)
 ├── pyproject.toml                      # Project metadata and MLX dependencies
 ├── pa_grpo_experiment.py               # Self-contained MLX implementation of Cross-Layer KV PA-GRPO
 ├── LICENSE                             # MIT License
